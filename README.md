@@ -1,9 +1,9 @@
 ![使用指南](https://raw.githubusercontent.com/vino3ds/ps-font-packager/main/assets/InstructionsForUse.png)
-## 🟩 PS Font Packager
+## 🌎 PS Font Packager
 
 **A Photoshop ExtendScript (JSX) for collecting and packaging project fonts.**
 
----
+-----
 
 ### ℹ️ Metadata
 
@@ -15,16 +15,20 @@
 | **GitHub** | [https://github.com/vinceofx](https://github.com/vinceofx) |
 | **License** | MIT License |
 
----
+-----
 
 ### 🌟 Key Features
 
 This script automates the tedious process of packaging font files used in a large PSD document.
 
-* **Robust Fuzzy Matching:** Uses an advanced algorithm to reliably match the font's internal PostScript name (e.g., `Arial-BoldMT`) to its system filename (e.g., `arialbd.ttf`).
-* **Chinese Font Optimization:** Includes special mapping for common Chinese system fonts (e.g., `YouYuan` to `SIMYOU`) and handles common suffixes like `GBK`.
-* **Simple Output:** Copies all found font files to a single folder named `Collected_Fonts` on your Desktop.
-* **No Dependencies:** Pure ExtendScript, no need for external libraries or panels (UXP/CEP).
+  * **Robust Fuzzy Matching:** Uses an advanced algorithm to reliably match the font's internal PostScript name (e.g., `Arial-BoldMT`) to its system filename (e.g., `arialbd.ttf`).
+  * **Chinese Font Optimization:** Includes special mapping for common Chinese system fonts (e.g., `YouYuan` to `SIMYOU`) and handles common suffixes like `GBK`.
+  * **Simple Output:** Copies all found font files to a single folder named `Collected_Fonts` on your Desktop.
+  * **No Dependencies:** Pure ExtendScript, no need for external libraries or panels (UXP/CEP).
+
+### 🖼️ Instructions
+
+A visual guide on how to run the script:
 
 ### 🚀 Installation & Usage
 
@@ -41,13 +45,26 @@ This script automates the tedious process of packaging font files used in a larg
 | **Adobe Photoshop** | Windows | CC 2018 and newer |
 | **Adobe Photoshop** | macOS | CC 2018 and newer |
 
----
+-----
+
+### 📜 License & Disclaimer
+
+### ⚠️ Special Disclaimer / 法律免责声明
+
+**[IMPORTANT WARNING]** When using the font files packaged by this script, **you must ensure that you hold the necessary legal license and authorization for all font files.**
+
+1.  This script is intended solely for technical study, reference, and exchange, and is strictly **NOT** involved in any profit-generating activities.
+2.  The Author (Vino) bears **no copyright or legal responsibility** for any claims or disputes arising from the user's use of the packaged font files. Users are solely responsible for compliance with relevant laws and regulations.
+
+Project is distributed under the **MIT License**. This tool is free and open source. Please do not repackage or resell it.
+
+-----
 
 ## 🇨🇳 PS Font Packager 中文说明
 
 **一款用于收集和打包项目字体的 Photoshop ExtendScript (JSX) 脚本。**
 
----
+-----
 
 ### ℹ️ 项目元数据
 
@@ -59,16 +76,20 @@ This script automates the tedious process of packaging font files used in a larg
 | **GitHub** | [https://github.com/vinceofx](https://github.com/vinceofx) |
 | **许可证** | MIT License |
 
----
+-----
 
 ### 🌟 核心功能
 
 本脚本旨在自动化处理大型 PSD 文档中字体文件的收集和打包工作。
 
-* **强大的模糊匹配:** 采用高级算法，能够可靠地匹配字体的内部 PostScript 名称（例如 `Arial-BoldMT`）与实际的系统文件名（例如 `arialbd.ttf`）。
-* **中文字体优化:** 内置了对常用中文字体（如幼圆 `YouYuan` 到 `SIMYOU`）的特殊命名映射，并处理了常见的 `GBK` 等后缀。
-* **输出简单:** 将所有找到的字体文件拷贝到桌面上的一个名为 `Collected_Fonts` 的文件夹中。
-* **无依赖性:** 纯 ExtendScript 脚本，无需依赖外部库或插件面板（UXP/CEP）。
+  * **强大的模糊匹配:** 采用高级算法，能够可靠地匹配字体的内部 PostScript 名称（例如 `Arial-BoldMT`）与实际的系统文件名（例如 `arialbd.ttf`）。
+  * **中文字体优化:** 内置了对常用中文字体（如幼圆 `YouYuan` 到 `SIMYOU`）的特殊命名映射，并处理了常见的 `GBK` 等后缀。
+  * **输出简单:** 将所有找到的字体文件拷贝到桌面上的一个名为 `Collected_Fonts` 的文件夹中。
+  * **无依赖性:** 纯 ExtendScript 脚本，无需依赖外部库或插件面板（UXP/CEP）。
+
+### 🖼️ 使用指南
+
+这是一个运行脚本的示例图：
 
 ### 🚀 安装与使用
 
@@ -85,10 +106,15 @@ This script automates the tedious process of packaging font files used in a larg
 | **Adobe Photoshop** | Windows | CC 2018 及更高版本 |
 | **Adobe Photoshop** | macOS | CC 2018 及更高版本 |
 
----
+-----
 
 ### 📜 许可证与贡献
 
-本项目采用 **MIT 许可证**。请注意作者的开源精神声明：
+### ⚠️ 特别免责声明 / Special Disclaimer
 
-> 本工具完全免费开源。请勿拉取后二次封装成收费程序，希望尊重开源精神。感谢您的支持与使用！
+**【重要警告】** 在使用本脚本打包的字体文件时，**请务必确保您拥有所有字体文件的合法授权。**
+
+1.  本脚本仅供技术学习、参考和交流，严格**不涉及任何盈利性质活动**。
+2.  作者（Vino）不承担因用户使用打包字体文件而产生的任何版权或**法律责任**。请用户自行知悉并遵守相关法律法规。
+
+本项目采用 **MIT 许可证**。本工具完全免费开源。请勿拉取后二次封装成收费程序，希望尊重开源精神。感谢您的支持与使用！
