@@ -1,3 +1,4 @@
+![使用指南](https://raw.githubusercontent.com/vino3ds/ps-font-packager/main/assets/InstructionsForUse.png)
 ## 🟩 PS Font Packager
 
 **A Photoshop ExtendScript (JSX) for collecting and packaging project fonts.**
